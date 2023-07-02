@@ -68,60 +68,6 @@ Recharts é uma biblioteca de gráficos para o React. Ele fornece uma maneira si
 
 Para saber mais sobre o Recharts, consulte a documentação oficial em [recharts.org](https://recharts.org/).
 
-## Estrutura do projeto
-
-A estrutura básica do projeto é a seguinte:
-
-```
-react-typescript-styled-mui-recharts/
-  ├── public/
-  │   ├── index.html
-  │   └── ...
-  ├── src/
-  │   ├── components/
-  │   │   ├── Button.tsx
-  │   │   └── ...
-  │   ├── pages/
-  │   │   ├── HomePage.tsx
-  │   │   └── ...
-  │   ├── styles/
-  │   │   ├── GlobalStyle.ts
-  │   │   └── ...
-  │   ├── utils/
-  │ │ └── ...
-  │ ├── App.tsx
-  │ ├── index.tsx
-  │ └── ...
-  ├── .gitignore
-  ├── package.json
-  ├── tsconfig.json
-  └── README.md
-```
-
-- A pasta `public` contém o arquivo `index.html` e outros recursos estáticos necessários para a construção da aplicação.
-
-- A pasta `src` contém o código-fonte do projeto.
-
-  - A pasta `components` contém os componentes reutilizáveis da aplicação, como `Button.tsx`, `Card.tsx`, etc.
-
-  - A pasta `pages` contém os componentes de página da aplicação, como `HomePage.tsx`, `AboutPage.tsx`, etc.
-
-  - A pasta `styles` contém os estilos globais da aplicação, como `GlobalStyle.ts`, `theme.ts`, etc.
-
-  - A pasta `utils` contém utilitários ou funções auxiliares que podem ser utilizados em vários lugares do projeto.
-
-  - O arquivo `App.tsx` é o ponto de entrada principal da aplicação, onde os componentes são renderizados.
-
-  - O arquivo `index.tsx` é o arquivo de inicialização do React, onde a aplicação é montada no elemento DOM raiz.
-
-- O arquivo `.gitignore` especifica quais arquivos e pastas devem ser ignorados pelo Git ao versionar o projeto.
-
-- O arquivo `package.json` contém as dependências e scripts do projeto.
-
-- O arquivo `tsconfig.json` é o arquivo de configuração do Typescript.
-
-- O arquivo `README.md` é onde você está atualmente, e fornece informações sobre o projeto, instruções de instalação e utilização.
-
 ## Contribuição
 
 Se você deseja contribuir para este projeto, siga as etapas abaixo:
