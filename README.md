@@ -96,6 +96,7 @@ react-typescript-styled-mui-recharts/
   ├── package.json
   ├── tsconfig.json
   └── README.md
+```
 
 - A pasta `public` contém o arquivo `index.html` e outros recursos estáticos necessários para a construção da aplicação.
 
