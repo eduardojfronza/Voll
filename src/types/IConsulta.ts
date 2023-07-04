@@ -6,5 +6,7 @@ export default interface IConsulta extends IProsfissional{
     horario: string,
     profissional: Array<IProsfissional>, // estamos passando as informações do profissional atraves de uma array
     especialidade: string,
+    paciente: string,
     modalidade: string
+    
 }
